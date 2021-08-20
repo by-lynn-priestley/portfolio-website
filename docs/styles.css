@@ -1,0 +1,28 @@
+/*resets browser defaults*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5E616B; /* font color - DARK GRAY */
+  background-color: #FCF1EF; /* base color - LIGHT BLUSH */
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+a {
+  text-decoration: none; /* removes underline from links */
+}
