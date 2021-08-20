@@ -1,0 +1,1 @@
+This repository contains the work for my portfolio website from scratch. The current work involves going through HTML/CSS lessons of the interneting is hard tutorial and evolving the skeleton of the site as I go. From there, I will develop the content.
