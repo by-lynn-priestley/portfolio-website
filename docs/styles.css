@@ -34,3 +34,7 @@ h2 {
 a {
   text-decoration: none; /* removes underline from links */
 }
+
+.page-section:first-of-type {
+  background-color: #808F86;
+}
