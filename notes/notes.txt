@@ -8,7 +8,7 @@ PROJECTS TO INCLUDE IN PORTFOLIO
 - Spoonie magazine cover
 - Panopticon simulator video
 
-*Link to repositories if there are any
+*Link to repositories if there are any 
 *Check to make sure all media is working
 
 ICONS FOR CREDITS AT BOTTOM OF SITE
