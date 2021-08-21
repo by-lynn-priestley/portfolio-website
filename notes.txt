@@ -1,0 +1,63 @@
+PROJECTS TO INCLUDE IN PORTFOLIO
+
+- Inclusive design visual rhetoric project (.psd)
+- techknowledgement poster illustrator doc
+- Loose leaf website
+- Typography bee poster
+- Audacity soundscape
+- Spoonie magazine cover
+- Panopticon simulator video
+
+*Link to repositories if there are any
+*Check to make sure all media is working
+
+ICONS FOR CREDITS AT BOTTOM OF SITE
+
+design by Nithinan Tatah from the Noun Project for pen design
+
+coding by Ahmad Roaayala from the Noun Project for coding design
+
+https://accessibleicon.org/#use for ISA icon
+
+PORTFOLIO CREATION NOTES FROM PRESENTATION:
+
+- Writing center can give feedback for portfolio
+- First, get sense of rhetorical situation
+    - Purpose: trying to raise interest
+    - Audience: person hiring
+    - Context/occasion
+- Reverse engineering approach
+    - Work backwards from job type you want
+        - Identify what they’re looking for in role
+            - Look at company culture on their websites/through application process
+                - Values
+                - Aesthetic
+        - Do you have work that mimics that?
+        - Craft story of portfolio around that to show you can fit
+- General advice for structuring portfolios
+    - Simple
+    - Easy to navigate
+    - Unified
+    - Central message
+    - Show personality
+- Website can be good way to demonstrate skills
+    - Assume more general audience with web presence
+    - Professional but personality-showing photos
+    - Make it clean/easy to navigate
+    - Adobe spark (free <3) could also be useful for creating digital portfolio?
+- Update resume with each new experience
+- USE PERSONAL WORK IN PORTFOLIO
+    - Can do (specified as non-commissioned) spec work and do mock-ups for diff brands
+- Behance and Dribble = useful for graphic design portfolio inspiration
+
+Creative writing notes:
+- Don’t post previously-unpublished work online, will mess with future opportunities
+- Writing website: bio w/ edu + work experience, links to writing if have published clips OR list of experience (classes taken, approach to writing/style, goals), contact form
+- Break different writing mediums into different tabs
+- Upload a resume or CV but REMOVE HOME ADDRESS AND PERSONAL PHONE NUMBER
+- Contact info needs to be easy to find (towards top)
+
+Pitt Fuego to help with coding (https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/) html, CSS, markdown
+	- can post things to Pitt server space
+
+https://www.workplace-writing.org/ shows how writing plays into their role
