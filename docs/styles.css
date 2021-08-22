@@ -5,18 +5,22 @@
   box-sizing: border-box;
 }
 
+/* adds smooth scroll effect to make the page section transitions more gently*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto; /* centers the page */
   max-width: 50em; /*limit character line to improve readability*/
 
-  color: #554948; /* font color - DARK GRAY-BROWN */
-  background-color: #FEF5F3; /* base color - LIGHT BLUSH */
+  color: #343434; /* font color */
+  background-color: #F3F3F3; /* base color */
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   text-align: center;
 
   line-height: 1.5; /*adds spacing within content*/
-  padding: 2em 1em; /*adds spacing around content*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,9 +36,126 @@ h2 {
 }
 
 a {
+  color: #343434;
   text-decoration: none; /* removes underline from links */
 }
 
-.page-section:first-of-type {
-  background-color: #808F86;
+/* NAV BAR */
+
+.nav-bar-container {
+  background-color: #687477;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.main-nav > ul {
+  width: 48em;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.main-nav > ul > li {
+  display: inline;
+  font-size: 14px;
+  color: #F3F3F3;
+}
+
+nav.main-nav > ul > li > a {
+  color: #F3F3F3;
+}
+
+.about {
+  margin-left: auto;
+}
+
+.portfolio,
+.contact {
+  margin-left: 40px;
+}
+
+/* LANDING PAGE */
+
+.introduction {
+  height: 400px;
+  color: #F3F3F3;
+  background-color: #687477;
+  display: flex;
+  justify-content: center;
+}
+
+.L-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  left: 50px;
+}
+
+.R-img > img {
+  position: relative;
+  top: 59px;
+}
+
+/* ABOUT */
+
+.bio {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.L-img > img {
+  border-radius: 50%;
+  background-color: #E2C2B3;
+}
+
+.bio-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.R-bio {
+  display: flex;
+  align-self: center;
+  margin-left: 40px;
+}
+
+.bio-bottom {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-focus {
+  width: 15em;
+}
+
+/* PORTFOLIO */
+
+.work {
+  margin-top: 65px;
+}
+
+.images {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+/* CONTACT */
+
+.communicate {
+  margin-top: 65px;
+}
+
+/* CREDITS */
+.credits {
+  margin-top: 65px;
 }

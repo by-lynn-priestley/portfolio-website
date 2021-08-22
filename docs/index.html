@@ -12,83 +12,118 @@
   <head/>
   <body>
 
+<!--nav bar-->
     <div class='nav-bar-container'>
-      <nav class='main nav' id='main-nav' role='navigation'>
+      <nav class='main-nav' id='main-nav' role='navigation'>
         <ul>
-          <li>
+          <li class='initials'>
             <a href='#intro'>CP</a>
           </li>
-          <li>
+          <li class='about'>
             <a href='#about'>About</a>
           </li>
-          <li>
+          <li class='portfolio'>
             <a href='#portfolio'>Portfolio</a>
           </li>
-          <li>
+          <li class='contact'>
             <a href='#contact'>Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <section class='page-section'>
-      <h1>
-        <span id='intro'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        hi there.
-      </h1>
-      <h2>i'm Carolyn Priestley.</h2>
-      <p>Digital Narrative and Interactive Design Student</p>
-      <img src='../images-of-self/carolyn-no-background.png' alt='Photo of Carolyn Priestley' width='300'/> <!-- switch to root relative linking for src when using actual web server? -->
+<!--landing page-->
+    <section class='page-section introduction'>
+      <div class='L-text'>
+        <h1>hi there.
+          <span id='intro'>&nbsp;</span><!-- non line-breaking space, prevents autobreak -->
+        </h1>
+        <h2>i'm Carolyn Priestley.</h2>
+        <p>Digital Narrative and Interactive Design Student</p>
+      </div>
+      <div class='R-img'>
+        <img src='../images-of-self/portfolio-pic-no-back.png' alt='Photo of Carolyn Priestley sitting on webpage edge' height='600'/>
+        <!-- switch to root relative linking for src when using actual web server? -->
+      </div>
     </section>
 
-    <section class='page-section'>
-      <h1>
-        <span id='about'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        About
-      </h1>
 
-      <img src='../images-of-self/portfolio-pic-no-back.png' alt='Photo of Carolyn Priestley sitting on webpage edge' width='300'/> 
+<!-- about -->
+    <section class='page-section bio'>
 
-      <p>I'm a junior at the University of Pittsburgh, majoring in Digital Narrative and Interactive Design on the Online Media track. My education involves a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content.</p>
+      <div class='bio-top'>
+        <h1>About
+          <span id='about'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
+        </h1>
+      </div>
 
-      <img src='../icons/accessible-icon.png' alt='The "Accessible Icon Project" icon created by Sara Hendren and Brian Glenney, which shows a person in a wheelchair in motion' width='35'/>
-      <h2>Accessibility</h2>
-        <p>From the very start of pursuing this major, my passion has been making my work accessible. I have supplemented my courses with readings about disability-related design and have sought out tools that allow me to check if my projects are inclusive to the disability community.</p>
+      <div class=bio-mid>
+        <div class='L-img'>
+          <img src='../images-of-self/carolyn-no-background.png' alt='Photo of Carolyn Priestley' height='250'/>
+        </div>
 
-      <img src='../icons/pen.png' alt='icon of pen and pencil with ink flowing in between' width='40'/>
-      <h2>Content Creation</h2>
-        <p>My skillset currently includes Photoshop, Illustrator, InDesign, and Audacity. But I'm always looking to expand. Over the summer, I took a formal typography course with Rhode Island School of Design to supplement the design education at Pitt.</p>
+        <div class='R-bio'>
+          <p>I'm a junior at the University of Pittsburgh, majoring in Digital Narrative and Interactive Design on the Online Media track. My education involves a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content.</p>
+        </div>
+      </div>
 
-      <img src='../icons/coding.png' alt='icon of computer with HTML tag on the screen' width='55/'>
-      <h2>Coding</h2>
-        <p>I can speak HTML, CSS, and Python.</p>
+      <div class='bio-bottom'>
 
+        <div class='icon-focus'>
+          <img src='../icons/accessible-icon.png' alt='The "Accessible Icon Project" icon created by Sara Hendren and Brian Glenney, which shows a person in a wheelchair in motion' width='35'/>
+          <h2>Accessibility</h2>
+            <p>From the very start of pursuing this major, my passion has been making my work accessible. I have supplemented my courses with readings about disability-related design and have sought out tools that allow me to check if my projects are inclusive to the disability community.</p>
+        </div>
+
+        <div class='icon-focus'>
+          <img src='../icons/pen.png' alt='icon of pen and pencil with ink flowing in between' width='40'/>
+          <h2>Content Creation</h2>
+            <p>My skillset currently includes Photoshop, Illustrator, InDesign, and Audacity. But I'm always looking to expand. Over the summer, I took a formal typography course with Rhode Island School of Design to supplement the design education at Pitt.</p>
+        </div>
+
+        <div class='icon-focus'>
+          <img src='../icons/coding.png' alt='icon of computer with HTML tag on the screen' width='55/'>
+          <h2>Coding</h2>
+            <p>I "speak" HTML, CSS, and Python.</p>
+        </div>
+      </div>
     </section>
 
-    <section class='page-section'>
-      <h1>
+<!-- portfolio -->
+
+    <section class='page-section work'>
+      <h1>Portfolio
         <span id='portfolio'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        Portfolio
       </h1>
-      <img src='../portfolio-images/advocacy-poster.png' alt='' height='300'/>
-      <img src='../portfolio-images/fake-docu-poster.png' alt='' height='300'/>
-      <img src='../portfolio-images/magazine-cover.png' alt='' height='300'/>
-      <img src='../portfolio-images/typography-poster.png' alt='' height='300'/>
-      <img src='../portfolio-images/website-screenshot.png' alt='' height='300'/>
+      <p>Some projects have GitHub repositories attached to them with progress photos and research done to track my process. Clicking on the images will take you to those repositories.</p>
+      <div class='images'>
+        <a href='https://github.com/cap-alt-delete/visual-argument-2021spring.git'><img src='../portfolio-images/advocacy-poster.png' alt='' height='300'/></a>
+        <img src='../portfolio-images/fake-docu-poster.png' alt='' height='300'/>
+        <a href='https://github.com/cap-alt-delete/consolidation-unit-2021spring.git'><img src='../portfolio-images/magazine-cover.png' alt='' height='300'/></a>
+        <img src='../portfolio-images/typography-poster.png' alt='' height='300'/>
+        <a href='https://github.com/cap-alt-delete/website-portfolio-2021spring.git'><img src='../portfolio-images/website-screenshot.png' alt='' height='300'/></a>
+        <video controls width='642' autoplay='false' alt="Video of coding process for a simulator of Foucault's panopticon">
+          <source src="../portfolio-other-media/panopticon-simulator.mov"/>
+        </video>
+        <audio controls autoplay='false' alt="Audio narrative playing off the idea of a literal train of thought">
+          <source src="../portfolio-other-media/all-aboard-soundscape.mp3"/>
+        </audio>
+      </div>
     </section>
 
-    <section class='page-section'>
-      <h1>
+    <section class='page-section communicate'>
+      <h1>Contact
         <span id='contact'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        Contact
       </h1>
       <p>let's get in touch.</p>
       <p>cap189@pitt.edu</p>
       <p>download my resume here.</p>
-      <p>linkedin</p>
+      <a href='https://www.linkedin.com/in/carolyn-priestley-5436421b3/'>LinkedIn</a>
     </section>
 
-    <p>icon credits</p>
-    <p>design by Nithinan Tatah from the Noun Project for pen design, coding by Ahmad Roaayala from the Noun Project for coding design, https://accessibleicon.org/#use for ISA icon</p>
+    <section class='page-section credits'>
+      <h1>icon credits</h1>
+      <p>design by Nithinan Tatah from the Noun Project for pen design, coding by Ahmad Roaayala from the Noun Project for coding design, https://accessibleicon.org/#use for ISA icon</p>
+    </section>
   <body/>
 <html/>
