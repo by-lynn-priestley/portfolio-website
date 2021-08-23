@@ -11,13 +11,11 @@ html {
 }
 
 body {
-  margin: 0 auto; /* centers the page */
-  max-width: 50em; /*limit character line to improve readability*/
 
   color: #343434; /* font color */
   background-color: #F3F3F3; /* base color */
   font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 
   line-height: 1.5; /*adds spacing within content*/
@@ -158,4 +156,11 @@ nav.main-nav > ul > li > a {
 /* CREDITS */
 .credits {
   margin-top: 65px;
+}
+
+@media only screen and (min-width: 961px) {
+  .page {
+    margin: 0 auto; /* centers the page */
+    max-width: 60em; /*limit character line to improve readability*/
+  }
 }
