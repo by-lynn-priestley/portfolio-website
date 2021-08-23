@@ -11,149 +11,152 @@
 
   <head/>
   <body>
-    <div class='page'>
-  <!--nav bar-->
-      <header class='nav-bar-container'>
-        <nav class='main-nav' id='main-nav' role='navigation'>
-          <ul>
-            <li class='initials'>
-              <a href='#intro'>CP</a>
-            </li>
-            <li class='about'>
-              <a href='#about'>About</a>
-            </li>
-            <li class='portfolio'>
-              <a href='#portfolio'>Portfolio</a>
-            </li>
-            <li class='contact'>
-              <a href='#contact'>Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+    <div class='intro-background-bar'>
+      <div class='page'>
+    <!--nav bar-->
+        <header class='nav-bar-container'>
+          <nav class='main-nav' id='main-nav' role='navigation'>
+            <ul>
+              <li class='initials'>
+                <a href='#intro'>CP</a>
+              </li>
+              <li class='about'>
+                <a href='#about'>About</a>
+              </li>
+              <li class='portfolio'>
+                <a href='#portfolio'>Portfolio</a>
+              </li>
+              <li class='contact'>
+                <a href='#contact'>Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-  <!--landing page-->
-      <section class='page-section introduction'>
-        <div class='L-text'>
-          <h1>hi there.
-            <span id='intro'>&nbsp;</span><!-- non line-breaking space, prevents autobreak -->
+    <!--landing page-->
+        <section class='page-section introduction'>
+          <div class='L-text'>
+            <h1>hi there.
+              <span id='intro'>&nbsp;</span><!-- non line-breaking space, prevents autobreak -->
+            </h1>
+            <h2>i'm Carolyn Priestley.</h2>
+            <p>Digital Narrative and Interactive Design Student</p>
+          </div>
+          <div class='R-img'>
+            <img src='../images-of-self/portfolio-pic-no-back.png' alt='Photo of Carolyn Priestley sitting on webpage edge' height='600'/>
+            <!-- switch to root relative linking for src when using actual web server? -->
+          </div>
+        </section>
+
+
+    <!-- about -->
+        <section class='page-section bio'>
+
+          <div class='bio-top'>
+            <h1>About
+              <span id='about'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
+            </h1>
+          </div>
+
+          <div class=bio-mid>
+            <div class='L-img'>
+              <img src='../images-of-self/carolyn-no-background.png' alt='Headshot of Carolyn Priestley' height='250'/>
+            </div>
+
+            <div class='R-bio'>
+              <p>I'm a junior at the University of Pittsburgh, majoring in Digital Narrative and Interactive Design on the Online Media track. My education involves a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content. I've listed a few of my key focuses below.</p>
+            </div>
+          </div>
+
+          <div class='bio-bottom'>
+            <div class='icon-focus'>
+              <img src='../icons/accessible-icon.png' alt='The "Accessible Icon Project" icon created by Sara Hendren and Brian Glenney, which shows a person in a wheelchair in motion' height='35'/>
+              <h2>Accessibility</h2>
+                <p>From the very start of pursuing this major, my passion has been making my work accessible. I have supplemented my courses with readings about disability-related design and have sought out tools that allow me to check if my projects are inclusive to the disability community.</p>
+            </div>
+
+            <div class='icon-focus'>
+              <img src='../icons/pen.png' alt='icon of pen and pencil with ink flowing in between' height='35'/>
+              <h2>Content Creation</h2>
+                <p>My skillset currently includes Photoshop, Illustrator, InDesign, and Audacity. But I'm always looking to expand. Over the summer, I took a formal typography course with Rhode Island School of Design to supplement the design education at Pitt.</p>
+            </div>
+
+            <div class='icon-focus'>
+              <img src='../icons/coding.png' alt='icon of computer with HTML tag on the screen' height='30'/>
+              <h2>Coding</h2>
+                <p>I "speak" HTML, CSS, and Python.</p>
+            </div>
+          </div>
+        </section>
+
+    <!-- portfolio -->
+
+        <section class='page-section work'>
+          <header class='portfolio-header'>
+            <h1>Portfolio
+              <span id='portfolio'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
+            </h1>
+            <p>Some projects have GitHub repositories attached to them with progress photos and research done to track my process, and/or credits for images/audio used in compositions. Clicking on the links below the images will take you to those repositories.</p>
+        </header>
+          <div class='images'>
+
+            <figure>
+              <img src='../portfolio-images/advocacy-poster.png' alt='Blue, black, and red poster that says "Design for is not the answer, instead design with"' height='300'/>
+              <figcaption><a href='https://github.com/cap-alt-delete/visual-argument-2021spring.git'>Link to repository</a></figcaption>
+            </figure>
+
+            <figure>
+              <img src='../portfolio-images/fake-docu-poster.png' alt='Illustrated fake advertisment poster for a documentary called "Techknowledgment" about whether humans are already cyborgs' height='300'/>
+              <figcaption>No credits link</figcaption>
+            </figure>
+
+            <figure>
+              <img src='../portfolio-images/magazine-cover.png' alt='Fake cover for a magazine called "Spoonie Press" about chronic illness' height='300'/>
+              <figcaption><a href='https://github.com/cap-alt-delete/typography-poster-credits.git'>Link to repository</a></figcaption>
+            </figure>
+
+            <figure>
+              <img src='../portfolio-images/typography-poster.png' alt='Bee-themed poster demonstrating elements of typography' height='300'/>
+              <figcaption><a href='https://github.com/cap-alt-delete/typography-poster-credits.git'>Link to credits</a></figcaption>
+            </figure>
+
+            <figure>
+              <img src='../portfolio-images/website-screenshot.png' alt='Screenshot of website designed for bookstore-cafe called "Loose Leaf"' height='300'/>
+              <figcaption><a href='https://github.com/cap-alt-delete/website-portfolio-2021spring.git'>Link to repository</a></figcaption>
+            </figure>
+
+            <figure>
+              <video controls autoplay='false' alt="Video of coding process for a simulator of Foucault's panopticon">
+                <source src="../portfolio-other-media/panopticon-simulator.mov"/>
+              </video>
+              <figcaption><a href='https://github.com/cap-alt-delete/panopticon-simulator-credits.git'>Link to credits</a></figcaption>
+            </figure>
+
+            <figure>
+              <audio controls autoplay='false' alt="Audio narrative playing off the idea of a literal train of thought">
+                <source src="../portfolio-other-media/all-aboard-soundscape.mp3"/>
+              </audio>
+              <figcaption><a href='https://github.com/cap-alt-delete/soundscape2021spring.git'>Link to repository</a></figcaption>
+            </figure>
+
+          </div>
+        </section>
+
+        <section class='page-section communicate'>
+          <h1>Contact
+            <span id='contact'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
           </h1>
-          <h2>i'm Carolyn Priestley.</h2>
-          <p>Digital Narrative and Interactive Design Student</p>
-        </div>
-        <div class='R-img'>
-          <img src='../images-of-self/portfolio-pic-no-back.png' alt='Photo of Carolyn Priestley sitting on webpage edge' height='600'/>
-          <!-- switch to root relative linking for src when using actual web server? -->
-        </div>
-      </section>
+          <p>let's get in touch.</p>
+          <p>email me at <a href='mailto:cap189@pitt.edu'>cap189@pitt.edu</a>.</p>
+          <p>download my resume here.</p> <!-- still need to link resume with <a href='file.pdf'> -->
+          <p>check out my<a href='https://www.linkedin.com/in/carolyn-priestley-5436421b3/'>LinkedIn</a>.</p>
+        </section>
 
-
-  <!-- about -->
-      <section class='page-section bio'>
-
-        <div class='bio-top'>
-          <h1>About
-            <span id='about'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-          </h1>
-        </div>
-
-        <div class=bio-mid>
-          <div class='L-img'>
-            <img src='../images-of-self/carolyn-no-background.png' alt='Headshot of Carolyn Priestley' height='250'/>
-          </div>
-
-          <div class='R-bio'>
-            <p>I'm a junior at the University of Pittsburgh, majoring in Digital Narrative and Interactive Design on the Online Media track. My education involves a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content.</p>
-          </div>
-        </div>
-
-        <div class='bio-bottom'>
-
-          <div class='icon-focus'>
-            <img src='../icons/accessible-icon.png' alt='The "Accessible Icon Project" icon created by Sara Hendren and Brian Glenney, which shows a person in a wheelchair in motion' height='35'/>
-            <h2>Accessibility</h2>
-              <p>From the very start of pursuing this major, my passion has been making my work accessible. I have supplemented my courses with readings about disability-related design and have sought out tools that allow me to check if my projects are inclusive to the disability community.</p>
-          </div>
-
-          <div class='icon-focus'>
-            <img src='../icons/pen.png' alt='icon of pen and pencil with ink flowing in between' height='35'/>
-            <h2>Content Creation</h2>
-              <p>My skillset currently includes Photoshop, Illustrator, InDesign, and Audacity. But I'm always looking to expand. Over the summer, I took a formal typography course with Rhode Island School of Design to supplement the design education at Pitt.</p>
-          </div>
-
-          <div class='icon-focus'>
-            <img src='../icons/coding.png' alt='icon of computer with HTML tag on the screen' height='30'/>
-            <h2>Coding</h2>
-              <p>I "speak" HTML, CSS, and Python.</p>
-          </div>
-        </div>
-      </section>
-
-  <!-- portfolio -->
-
-      <section class='page-section work'>
-        <h1>Portfolio
-          <span id='portfolio'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        </h1>
-        <p>Some projects have GitHub repositories attached to them with progress photos and research done to track my process, and/or credits for images/audio used in compositions. Clicking on the links below the images will take you to those repositories.</p>
-        <div class='images'>
-
-          <figure>
-            <img src='../portfolio-images/advocacy-poster.png' alt='Blue, black, and red poster that says "Design for is not the answer, instead design with"' height='300'/>
-            <figcaption><a href='https://github.com/cap-alt-delete/visual-argument-2021spring.git'>Link to repository</a></figcaption>
-          </figure>
-
-          <figure>
-            <img src='../portfolio-images/fake-docu-poster.png' alt='Illustrated fake advertisment poster for a documentary called "Techknowledgment" about whether humans are already cyborgs' height='300'/>
-            <figcaption>No credits link</figcaption>
-          </figure>
-
-          <figure>
-            <img src='../portfolio-images/magazine-cover.png' alt='Fake cover for a magazine called "Spoonie Press" about chronic illness' height='300'/>
-            <figcaption><a href='https://github.com/cap-alt-delete/typography-poster-credits.git'>Link to repository</a></figcaption>
-          </figure>
-
-          <figure>
-            <img src='../portfolio-images/typography-poster.png' alt='Bee-themed poster demonstrating elements of typography' height='300'/>
-            <figcaption><a href='https://github.com/cap-alt-delete/typography-poster-credits.git'>Link to credits</a></figcaption>
-          </figure>
-
-          <figure>
-            <img src='../portfolio-images/website-screenshot.png' alt='Screenshot of website designed for bookstore-cafe called "Loose Leaf"' height='300'/>
-            <figcaption><a href='https://github.com/cap-alt-delete/website-portfolio-2021spring.git'>Link to repository</a></figcaption>
-          </figure>
-
-          <figure>
-            <video controls width='642' autoplay='false' alt="Video of coding process for a simulator of Foucault's panopticon">
-              <source src="../portfolio-other-media/panopticon-simulator.mov"/>
-            </video>
-            <figcaption><a href='https://github.com/cap-alt-delete/panopticon-simulator-credits.git'>Link to credits</a></figcaption>
-          </figure>
-
-          <figure>
-            <audio controls autoplay='false' alt="Audio narrative playing off the idea of a literal train of thought">
-              <source src="../portfolio-other-media/all-aboard-soundscape.mp3"/>
-            </audio>
-            <figcaption><a href='https://github.com/cap-alt-delete/soundscape2021spring.git'>Link to repository</a></figcaption>
-          </figure>
-
-        </div>
-      </section>
-
-      <section class='page-section communicate'>
-        <h1>Contact
-          <span id='contact'> &nbsp; </span> <!-- non line-breaking space, prevents autobreak -->
-        </h1>
-        <p>let's get in touch.</p>
-        <p>email me at <a href='mailto:cap189@pitt.edu'>cap189@pitt.edu</a>.</p>
-        <p>download my resume here.</p> <!-- still need to link resume with <a href='file.pdf'> -->
-        <p>check out my<a href='https://www.linkedin.com/in/carolyn-priestley-5436421b3/'>LinkedIn</a>.</p>
-      </section>
-
-      <footer class='page-section credits'>
-        <h1>icon credits</h1>
-        <p><a href='https://thenounproject.com/term/design/2082946/'>design</a> by Nithinan Tatah from the Noun Project for pen/pencil design, <a href='https://thenounproject.com/term/coding/4138862/'>coding</a> by Ahmad Roaayala from the Noun Project for coding design, and <a href='https://accessibleicon.org/#use'>The Accessible Icon Project</a></p>
-      </footer>
+        <footer class='page-section credits'>
+          <h1>icon credits</h1>
+          <p><a href='https://thenounproject.com/term/design/2082946/'>design</a> by Nithinan Tatah from the Noun Project for pen/pencil design, <a href='https://thenounproject.com/term/coding/4138862/'>coding</a> by Ahmad Roaayala from the Noun Project for coding design, and <a href='https://accessibleicon.org/#use'>The Accessible Icon Project</a></p>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
