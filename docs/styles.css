@@ -11,25 +11,26 @@ html {
 }
 
 body {
-  color: #343434; /* font color */
-  background-color: #F3F3F3; /* base color */
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 14px;
-  text-align: center;
-
+  text-align: left;
   line-height: 1.5; /*adds spacing within content*/
+
+  color: #343434; /* font color */
+  background-color: #F3F3F3; /* base color */
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 a {
@@ -84,6 +85,21 @@ nav.main-nav > ul > li > a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  align-items: center;
+}
+
+.L-text > h1 {
+  font-size: 6em;
+}
+
+.L-text > h2 {
+  font-size: 3em;
+  margin-top: -100px;
+}
+
+.L-text > p {
+  font-style: italic;
+  text-align: right;
 }
 
 .R-img {
@@ -121,6 +137,9 @@ nav.main-nav > ul > li > a {
 }
 
 .icon-focus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 30px;
   width: 15em;
 }
@@ -153,19 +172,31 @@ nav.main-nav > ul > li > a {
   width: 100%;
 }
 
+figcaption {
+  text-align: right;
+}
+
 /* CONTACT */
 
 .communicate {
   margin-top: 45px;
+  text-align: center;
 }
+
 
 /* CREDITS */
 .credits {
   margin-top: 90px;
+  text-align: center;
 }
 
 /* tablet styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 389px) and (max-width: 960px) {
+  /*landing*/
+  .L-text > h2 {
+    margin-top: 0;
+  }
+
   /*nav*/
   nav.main-nav > ul {
     width: 26em;
@@ -222,6 +253,16 @@ nav.main-nav > ul > li > a {
     justify-content: center;
     position: relative;
     left: 50px;
+  }
+
+  .L-text > h2 {
+    margin-top: 0;
+    font-size: 2.6em;
+    text-align: left;
+  }
+
+  .L-text > p {
+    text-align: left;
   }
 
   .R-img {
