@@ -164,7 +164,7 @@ nav.main-nav > ul > li > a:hover {
 .L-img > img {
   border-radius: 50%;
   background-color: #EED6C8;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .bio-mid,
@@ -177,7 +177,7 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .R-bio {
-  margin-top: 15px;
+  margin-top: 25px;
   width: 80%;
 }
 
@@ -364,8 +364,7 @@ figcaption > a:hover {
   .bio-mid {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-around;
   }
 
   .R-bio {
