@@ -32,8 +32,8 @@ h1 {
 .bio-top > h1 span,
 .portfolio-header > h1 span,
 .communicate > h1 span {
-  margin-top: -2.3em;
-  padding-bottom: 2.3em;
+  margin-top: -.5em;
+  padding-bottom: .5em;
   display: block;
 }
 
