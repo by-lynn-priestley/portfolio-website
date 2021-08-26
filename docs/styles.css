@@ -29,6 +29,15 @@ h1 {
   font-size: 1.2em;
 }
 
+/* fixes issue of navigation bar partially covering header on jump */
+.bio-top > h1 span,
+.portfolio-header > h1 span,
+.communicate > h1 span {
+  margin-top: -2.3em;
+  padding-bottom: 2.3em;
+  display: block;
+}
+
 h2 {
   font-size: 1.1em;
 }
@@ -54,11 +63,21 @@ a:hover {
 /* NAV BAR */
 
 .nav-bar-container {
-  background-color: #4E5C59; /*dark green*/
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #4E5C59;
+}
+
+.home-initials > a {
+  color: #F3F3F3;
+}
+
+.home-initials > a:hover {
+  text-decoration: overline;
+  color: #EED6C8;
+  font-weight: bold;
 }
 
 nav.main-nav > ul {
@@ -111,6 +130,8 @@ nav.main-nav > ul > li > a:hover {
 
 .L-text > h1 {
   font-size: 5.6em;
+  position: relative;
+  left: -25px;
 }
 
 .L-text > h2 {
@@ -120,6 +141,7 @@ nav.main-nav > ul > li > a:hover {
 .L-text > p {
   font-style: italic;
   text-align: right;
+  color: #EED6C8;
 }
 
 .R-img {
@@ -138,7 +160,8 @@ nav.main-nav > ul > li > a:hover {
   margin-top: -6px;
   text-align: center;
   position: relative;
-  right: 4px;
+  left: 1px;
+  color: #33659E;
 }
 
 .L-img > img {
@@ -196,8 +219,7 @@ nav.main-nav > ul > li > a:hover {
 .portfolio-header > p:first-of-type {
   margin-top: -6px;
   text-align: center;
-  position: relative;
-  right: 3px;
+  color: #33659E;
 }
 
 .images {
@@ -232,8 +254,7 @@ figcaption > a:hover {
 .communicate > p:first-of-type {
   margin-top: -6px;
   text-align: center;
-  position: relative;
-  right: 3px;
+  color: #33659E;
 }
 
 .communicate > p:nth-last-of-type(4) {
@@ -243,10 +264,12 @@ figcaption > a:hover {
 
 /* CREDITS */
 .credits {
-  margin-top: 100px;
+  margin-top: 40px;
   text-align: center;
   padding-top: 10px;
-  height: 100px;
+  height: 110px;
+  background-color: #4E5C59;
+  color: #F3F3F3;
 }
 
 .credits > p {
@@ -258,8 +281,19 @@ figcaption > a:hover {
   margin-top: -6px;
   text-align: center;
   position: relative;
-  left: 1px;
+  left: 2px;
+  color: #EED6C8;
 }
+
+.credits > p > a {
+  color: #EED6C8;
+  font-weight: bold;
+}
+
+.credits > p > a:hover {
+  text-decoration: overline;
+}
+
 
 
 
@@ -307,7 +341,7 @@ figcaption > a:hover {
 
 /*nav*/
   nav.main-nav > ul {
-    width: 65em;
+    width: 57em;
   }
 
   .about {
@@ -324,8 +358,6 @@ figcaption > a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    position: relative;
-    left: 50px;
   }
 
   .L-text > h2 {
@@ -359,7 +391,9 @@ figcaption > a:hover {
   }
 
   .bio-top > p {
-    right: 14px;
+    text-align: left;
+    position: relative;
+    left: 390px;
   }
 
   .bio-mid {
@@ -404,6 +438,10 @@ figcaption > a:hover {
   }
 
   /*contact*/
+  .communicate {
+    margin-top: 40px;
+  }
+
   .contact-list {
     margin-top: 40px;
     display: flex;
@@ -416,6 +454,19 @@ figcaption > a:hover {
 
   .contact-list > p:last-of-type {
     margin-right: 30px;
+  }
+
+  /*credits*/
+  .credits {
+    margin-top: 60px;
+    background-color: #4E5C59;
+    height: 110px;
+    width: 300%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    right: 838px;
+    position: relative;
   }
 
 }
