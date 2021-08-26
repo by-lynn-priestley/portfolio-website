@@ -21,7 +21,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
   text-align: center;
 }
 
@@ -57,7 +56,9 @@ a:hover {
 .portfolio-header > p:first-of-type,
 .communicate > p:first-of-type,
 .credits > p:first-of-type {
-  color: #4E5C59;
+  margin-top: -6px;
+  text-align: center;
+  color: #33659E;
 }
 
 /* NAV BAR */
@@ -88,12 +89,11 @@ nav.main-nav > ul {
 
 nav.main-nav > ul > li {
   display: inline;
-  font-size: 14px;
-  color: #F3F3F3;
 }
 
 nav.main-nav > ul > li > a {
   color: #F3F3F3;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -157,11 +157,8 @@ nav.main-nav > ul > li > a:hover {
 }
 
 .bio-top > p {
-  margin-top: -6px;
-  text-align: center;
   position: relative;
   left: 1px;
-  color: #33659E;
 }
 
 .L-img > img {
@@ -170,7 +167,10 @@ nav.main-nav > ul > li > a:hover {
   margin-top: 30px;
 }
 
-.bio-mid {
+.bio-mid,
+.bio-bottom,
+.icon-focus,
+.portfolio-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,16 +181,7 @@ nav.main-nav > ul > li > a:hover {
   width: 80%;
 }
 
-.bio-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .icon-focus {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-top: 35px;
   width: 15em;
 }
@@ -205,21 +196,9 @@ nav.main-nav > ul > li > a:hover {
   margin-top: 60px;
 }
 
-.portfolio-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .portfolio-header > p {
   margin-top: 10px;
   width: 80%;
-}
-
-.portfolio-header > p:first-of-type {
-  margin-top: -6px;
-  text-align: center;
-  color: #33659E;
 }
 
 .images {
@@ -251,12 +230,6 @@ figcaption > a:hover {
   text-align: center;
 }
 
-.communicate > p:first-of-type {
-  margin-top: -6px;
-  text-align: center;
-  color: #33659E;
-}
-
 .communicate > p:nth-last-of-type(4) {
   margin-top: 10px;
 }
@@ -278,8 +251,6 @@ figcaption > a:hover {
 
 .credits > p:first-of-type {
   font-size: 14px;
-  margin-top: -6px;
-  text-align: center;
   position: relative;
   left: 2px;
   color: #EED6C8;
@@ -293,9 +264,6 @@ figcaption > a:hover {
 .credits > p > a:hover {
   text-decoration: overline;
 }
-
-
-
 
 /* tablet styles */
 @media only screen and (min-width: 389px) and (max-width: 960px) {
@@ -318,10 +286,7 @@ figcaption > a:hover {
     margin-left: 40px;
   }
 
-  .R-bio {
-    width: 50%;
-  }
-
+  .R-bio,
   .portfolio-header > p {
     width: 50%;
   }
