@@ -190,6 +190,11 @@ nav.main-nav > ul > li > a:hover {
   margin-top: 10px;
 }
 
+.icon-focus > p {
+  margin-top: 10px;
+}
+
+
 /* PORTFOLIO */
 
 .work {
