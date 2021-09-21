@@ -141,6 +141,7 @@ nav.main-nav > ul > li > a:hover {
 .L-text > p {
   font-style: italic;
   text-align: right;
+  font-size: 16px;
   color: #EED6C8;
 }
 
@@ -151,7 +152,7 @@ nav.main-nav > ul > li > a:hover {
 /* ABOUT */
 
 .bio {
-  margin-top: 30px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -206,6 +207,7 @@ nav.main-nav > ul > li > a:hover {
   width: 80%;
 }
 
+
 .images {
   margin-top: 30px;
   display: flex;
@@ -233,6 +235,10 @@ figcaption > a:hover {
 .communicate {
   margin-top: 60px;
   text-align: center;
+}
+
+.tagline {
+  margin-bottom: 8px;
 }
 
 .communicate > p:nth-last-of-type(4) {
@@ -395,7 +401,7 @@ figcaption > a:hover {
   .work,
   .communicate,
   .credits {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .images > img, video {
@@ -409,6 +415,10 @@ figcaption > a:hover {
   /*contact*/
   .communicate {
     margin-top: 40px;
+  }
+
+  .tagline {
+    margin-bottom: -10px;
   }
 
   .contact-list {
