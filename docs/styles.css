@@ -449,3 +449,30 @@ figcaption > a:hover {
   }
 
 }
+
+/* accessibility styling for keyboard nav*/
+a:focus {
+  outline: 2.5px solid #33659E; /*dark blue*/
+}
+
+.home-initials > a:focus,
+nav.main-nav > ul > li > a:focus,
+.credits > p > a:focus {
+  outline: 2.5px solid #EED6C8;
+}
+
+.skip-to-content-link {
+  color: #343434; /* font color - dark gray */
+  background: #EED6C8;
+  height: 30px;
+  left: 44%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-200%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(40%);
+  outline: 2.5px solid #343434;
+}
