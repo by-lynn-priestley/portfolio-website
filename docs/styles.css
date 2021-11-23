@@ -22,6 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
+  letter-spacing: .25px; /tracking of bold headers to feel less crowded
 }
 
 h1 {
@@ -132,10 +133,12 @@ nav.main-nav > ul > li > a:hover {
   font-size: 5.6em;
   position: relative;
   left: -25px;
+  letter-spacing: 1px;
 }
 
 .L-text > h2 {
   font-size: 2.8em;
+  letter-spacing: 1.5px;
 }
 
 .L-text > p {
