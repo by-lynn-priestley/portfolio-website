@@ -212,7 +212,6 @@ nav.main-nav > ul > li > a:hover {
 
 
 .images {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -221,6 +220,12 @@ nav.main-nav > ul > li > a:hover {
 
 .images > img, video {
   width: 100%;
+}
+
+figure {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 25px;
 }
 
 figcaption {
