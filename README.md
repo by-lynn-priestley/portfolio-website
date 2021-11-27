@@ -1,1 +1,3 @@
-This repository contains the work for my portfolio website from scratch. The current work involves going through HTML/CSS lessons of the interneting is hard tutorial and evolving the skeleton of the site as I go. From there, I will develop the content.
+<h1>Lynn Priestley | Portfolio Site Repository</h1>
+
+This repository contains the work for coding my portfolio website from scratch, using HTML/CSS. 
