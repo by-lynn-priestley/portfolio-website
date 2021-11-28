@@ -302,6 +302,9 @@ figcaption > a:hover {
   body {
     overflow-x: hidden;
   }
+  .introduction > h1, h2, p {
+    text-align: center;
+  }
 
   /*landing*/
   .L-text > h2 {
