@@ -18,6 +18,8 @@ body {
 
   color: #343434; /* font color - dark gray */
   background-color: #F3F3F3; /* base color - off white */
+
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
