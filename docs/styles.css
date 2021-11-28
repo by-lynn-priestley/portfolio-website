@@ -256,12 +256,13 @@ figcaption > a:hover {
 
 /* CREDITS */
 .credits {
-  margin-top: 40px;
-  text-align: center;
+  margin-top: 60px;
   padding-top: 10px;
-  height: 110px;
+  height: 140px;
+  width: 100%;
   background-color: #4E5C59;
   color: #F3F3F3;
+  text-align: center;
 }
 
 .credits > p {
@@ -407,8 +408,7 @@ figcaption > a:hover {
   }
   /*portfolio*/
   .work,
-  .communicate,
-  .credits {
+  .communicate {
     margin-top: 40px;
   }
 
@@ -441,19 +441,6 @@ figcaption > a:hover {
 
   .contact-list > p:last-of-type {
     margin-right: 30px;
-  }
-
-  /*credits*/
-  .credits {
-    margin-top: 60px;
-    background-color: #4E5C59;
-    height: 110px;
-    width: 300%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    right: 838px;
-    position: relative;
   }
 
 }
