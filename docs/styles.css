@@ -286,6 +286,7 @@ figcaption > a:hover {
   text-decoration: overline;
 }
 
+/*phone screen width*/
 @media only screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
@@ -296,7 +297,7 @@ figcaption > a:hover {
 }
 
 
-/* tablet styles */
+/* tablet styles + small desktop screen width */
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   body {
     overflow-x: hidden;
