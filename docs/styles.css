@@ -577,7 +577,7 @@ nav > ul > li > a.skip-to-content-link:hover {
 /*allows for screen reader only headings for portfolio site title and intro title*/
 .visually-hidden {
   position: absolute;
-  left: -10000px;
+  left: -10px;
   width: 1px;
   height: 1px;
   overflow: hidden;
