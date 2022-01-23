@@ -135,24 +135,29 @@ nav > ul > li > a:hover {
   margin-left: 5px;
 }
 
-.L-text > h1 {
-  font-size: 5.6em;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: normal;
-  }
-}
-
-.L-text > h2 {
-  font-size: 2.8em;
-  letter-spacing: 1.75px;
-}
-
 .L-text > p {
   font-style: italic;
   text-align: center;
   font-size: 16px;
   color: #EED6C8;
+}
+
+.L-text > p:first-of-type {
+  font-style: normal;
+  font-size: 5.6em;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: normal;
+  color:#F3F3F3;
+  }
+}
+
+.L-text > p:nth-of-type(2) {
+  font-size: 2.8em;
+  letter-spacing: 1.75px;
+  color:#F3F3F3;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .R-img {
@@ -323,11 +328,14 @@ nav > ul > li > a:hover {
     margin-left: 0px;
   }
 
-  .L-text > h1 {
+  .L-text > p:first-of-type {
     font-size: 4.2em;
   }
-  .L-text > h2 {
+  .L-text > p:nth-of-type(2) {
     font-size: 2.6em;
+    color:#F3F3F3;
+    font-weight: bold;
+    font-style: normal;
   }
   .contact-list > p:first-of-type {
     margin-top: 25px;
@@ -352,9 +360,12 @@ nav > ul > li > a:hover {
     margin-left: 0px;
   }
 
-  .L-text > h2 {
+  .L-text > p:nth-of-type(2) {
     margin-top: 0;
     font-size: 2.6em;
+    color:#F3F3F3;
+    font-weight: bold;
+    font-style: normal;
   }
 
   /*nav*/
@@ -417,19 +428,22 @@ nav > ul > li > a:hover {
     justify-content: center;
   }
 
-  .L-text > h1 {
+  .L-text > p {
+    text-align: center;
+  }
+
+  .L-text > p:first-of-type {
     position: relative;
     left: -27px;
   }
 
-  .L-text > h2 {
+  .L-text > p:nth-of-type(2) {
     margin-top: 0;
     font-size: 2.6em;
     text-align: center;
-  }
-
-  .L-text > p {
-    text-align: center;
+    color:#F3F3F3;
+    font-weight: bold;
+    font-style: normal;
   }
 
   .R-img {
@@ -558,4 +572,13 @@ nav > ul > li > a.skip-to-content-link:focus {
 nav > ul > li > a.skip-to-content-link:hover {
   text-decoration: overline;
   color: #343434;
+}
+
+/*allows for screen reader only headings for portfolio site title and intro title*/
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
