@@ -344,8 +344,14 @@ nav > ul > li > a:hover {
     margin-bottom: 10px;
   }
   .credits {
-    height: 230px;
+    height: 320px;
   }
+  .credits > p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+
 }
 
 
@@ -392,6 +398,11 @@ nav > ul > li > a:hover {
   }
   .contact-list > p {
     margin-bottom: 10px;
+  }
+
+  .credits > p {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
 }
