@@ -24,23 +24,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
-  letter-spacing: .25px; /tracking of bold headers to feel less crowded
+  letter-spacing: .5px; /tracking of bold headers to feel less crowded
 }
 
-h1 {
-  font-size: 1.2em;
+h2 {
+  font-size: 1.3em;
 }
 
 /* fixes issue of navigation bar partially covering header on jump */
 .bio-top > h1 span,
 .portfolio-header > h1 span,
-.communicate > h1 span {
+.communicate > h1 span,
+.bio-top > h2 span,
+.portfolio-header > h2 span,
+.communicate > h2 span {
   margin-top: -.5em;
   padding-bottom: .5em;
   display: block;
 }
 
-h2 {
+h3 {
   font-size: 1.1em;
 }
 
@@ -66,7 +69,7 @@ a:hover {
 
 /* NAV BAR */
 
-.nav-bar-container {
+nav {
   height: 40px;
   display: flex;
   justify-content: center;
@@ -84,23 +87,23 @@ a:hover {
   font-weight: bold;
 }
 
-nav.main-nav > ul {
+#main-nav > ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-nav.main-nav > ul > li {
+nav > ul > li {
   display: inline;
 }
 
-nav.main-nav > ul > li > a {
+nav > ul > li > a {
   color: #F3F3F3;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
-nav.main-nav > ul > li > a:hover {
+nav > ul > li > a:hover {
   text-decoration: overline;
   color: #EED6C8;
   font-weight: bold;
@@ -129,17 +132,20 @@ nav.main-nav > ul > li > a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-left: 5px;
 }
 
 .L-text > h1 {
   font-size: 5.6em;
   letter-spacing: 1px;
   text-align: center;
+  font-weight: normal;
+  }
 }
 
 .L-text > h2 {
   font-size: 2.8em;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.75px;
 }
 
 .L-text > p {
@@ -191,7 +197,7 @@ nav.main-nav > ul > li > a:hover {
   width: 15em;
 }
 
-.icon-focus > h2 {
+.icon-focus > h3 {
   margin-top: 10px;
 }
 
@@ -211,7 +217,6 @@ nav.main-nav > ul > li > a:hover {
   width: 80%;
 }
 
-
 .images {
   display: flex;
   flex-wrap: wrap;
@@ -223,18 +228,25 @@ nav.main-nav > ul > li > a:hover {
   width: 100%;
 }
 
-figure {
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.images > .project {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 25px;
 }
 
-figcaption {
+.images > .project > a {
+  margin-top: 3px;
   text-align: center;
   color: #33659E;
 }
 
-figcaption > a:hover {
+.images > .project > a:hover {
   text-decoration: overline;
   font-weight: bold;
 }
@@ -245,7 +257,7 @@ figcaption > a:hover {
   align-items: center;
 }
 
-.insta > figcaption {
+.insta > a {
   margin-top: 6px;
 }
 
@@ -270,7 +282,7 @@ figcaption > a:hover {
 .credits {
   margin-top: 60px;
   padding-top: 10px;
-  height: 140px;
+  height: 160px;
   width: 100%;
   background-color: #4E5C59;
   color: #F3F3F3;
@@ -297,13 +309,34 @@ figcaption > a:hover {
   text-decoration: overline;
 }
 
+.credits > p:last-of-type {
+  margin-bottom: 30px;
+}
+
 /*phone screen width*/
 @media only screen and (max-width: 480px) {
   body {
     overflow-x: hidden;
   }
-  .L-text > h1, h2, p {
-    text-align: center;
+
+  .L-text {
+    margin-left: 0px;
+  }
+
+  .L-text > h1 {
+    font-size: 4.2em;
+  }
+  .L-text > h2 {
+    font-size: 2.6em;
+  }
+  .contact-list > p:first-of-type {
+    margin-top: 25px;
+  }
+  .contact-list > p {
+    margin-bottom: 10px;
+  }
+  .credits {
+    height: 230px;
   }
 }
 
@@ -313,17 +346,19 @@ figcaption > a:hover {
   body {
     overflow-x: hidden;
   }
-  .L-text > h1, h2, p {
-    text-align: center;
-  }
 
   /*landing*/
+  .L-text {
+    margin-left: 0px;
+  }
+
   .L-text > h2 {
     margin-top: 0;
+    font-size: 2.6em;
   }
 
   /*nav*/
-  nav.main-nav > ul {
+  #main-nav > ul {
     width: 26em;
   }
 
@@ -341,6 +376,13 @@ figcaption > a:hover {
     width: 50%;
   }
 
+  .contact-list > p:first-of-type {
+    margin-top: 25px;
+  }
+  .contact-list > p {
+    margin-bottom: 10px;
+  }
+
 }
 
 /* desktop rules */
@@ -355,7 +397,7 @@ figcaption > a:hover {
   }
 
 /*nav*/
-  nav.main-nav > ul {
+  #main-nav > ul {
     width: 57em;
   }
 
@@ -405,7 +447,7 @@ figcaption > a:hover {
     flex-direction: column;
   }
 
-  .bio-top > h1 {
+  .bio-top > h2 {
     position: relative;
     right: 25px;
   }
@@ -451,7 +493,7 @@ figcaption > a:hover {
     width: 642px;
   }
 
-  figcaption {
+  .images > .project > a {
     text-align: right;
   }
 
@@ -492,12 +534,12 @@ a:focus {
 }
 
 .home-initials > a:focus,
-nav.main-nav > ul > li > a:focus,
+nav > ul > li > a:focus,
 .credits > p > a:focus {
   outline: 2.5px solid #EED6C8;
 }
 
-.skip-to-content-link {
+nav > ul > li > a.skip-to-content-link {
   color: #343434; /* font color - dark gray */
   background: #EED6C8;
   height: 30px;
@@ -508,7 +550,12 @@ nav.main-nav > ul > li > a:focus,
   transition: transform 0.3s;
 }
 
-.skip-to-content-link:focus {
+nav > ul > li > a.skip-to-content-link:focus {
   transform: translateY(40%);
   outline: 2.5px solid #343434;
+}
+
+nav > ul > li > a.skip-to-content-link:hover {
+  text-decoration: overline;
+  color: #343434;
 }
