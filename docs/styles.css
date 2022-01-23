@@ -324,6 +324,10 @@ nav > ul > li > a:hover {
     overflow-x: hidden;
   }
 
+  nav {
+    padding-right: 1em;;
+  }
+
   .L-text {
     margin-left: 0px;
   }
