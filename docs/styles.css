@@ -62,7 +62,7 @@ a:hover {
 .portfolio-header > p:first-of-type,
 .communicate > p:first-of-type,
 .credits > p:first-of-type {
-  margin-top: -6px;
+  margin-top: -4px;
   text-align: center;
   color: #33659E;
 }
@@ -535,7 +535,7 @@ nav > ul > li > a:hover {
   .bio-top > p {
     text-align: left;
     position: relative;
-    left: 445px;
+    left: 440px;
   }
 
   .bio-mid {
