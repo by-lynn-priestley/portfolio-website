@@ -463,7 +463,7 @@ nav > ul > li > a:hover {
 }
 
 /* desktop rules */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1020px) {
   .intro-background-bar {
     height: 440px;
     background-color: #4E5C59;
@@ -529,13 +529,12 @@ nav > ul > li > a:hover {
 
   .bio-top > h2 {
     position: relative;
-    right: 25px;
+    margin-right: 3em;
   }
 
   .bio-top > p {
-    text-align: left;
-    position: relative;
-    left: 440px;
+    text-align: center;
+    margin-left: -4.25em;
   }
 
   .bio-mid {
