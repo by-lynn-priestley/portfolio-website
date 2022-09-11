@@ -325,7 +325,7 @@ nav > ul > li > a:hover {
 .credits > p:first-of-type {
   font-size: 16px;
   position: relative;
-  margin-left: 1.5em;
+  margin-left: .3em;
   color: #EED6C8;
 }
 
@@ -387,6 +387,11 @@ nav > ul > li > a:hover {
   .credits {
     height: 320px;
   }
+
+  .credits > p:first-of-type {
+    margin-left: 2.5em;
+  }
+
   .credits > p {
     margin-left: 40px;
     margin-right: 40px;
@@ -459,7 +464,9 @@ nav > ul > li > a:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
-
+  .credits > p:first-of-type {
+    margin-left: 1.1em;
+  }
 }
 
 /* desktop rules */
