@@ -176,7 +176,7 @@ nav > ul > li > a:hover {
 
 .bio-top > p {
   position: relative;
-  left: 1px;
+  margin-left: 1px;
 }
 
 .L-img > img {
@@ -325,7 +325,7 @@ nav > ul > li > a:hover {
 .credits > p:first-of-type {
   font-size: 16px;
   position: relative;
-  left: 2px;
+  margin-left: 2px;
   color: #EED6C8;
 }
 
@@ -500,7 +500,7 @@ nav > ul > li > a:hover {
 
   .L-text > p:first-of-type {
     position: relative;
-    left: -27px;
+    margin-left: -27px;
   }
 
   .L-text > p:nth-of-type(2) {
@@ -642,7 +642,7 @@ nav > ul > li > a.skip-to-content-link:hover {
 /*allows for screen reader only headings for portfolio site title and intro title*/
 .visually-hidden {
   position: absolute;
-  left: -10px;
+  margin-left: -10px;
   width: 1px;
   height: 1px;
   overflow: hidden;
