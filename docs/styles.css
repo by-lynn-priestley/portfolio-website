@@ -325,7 +325,7 @@ nav > ul > li > a:hover {
 .credits > p:first-of-type {
   font-size: 16px;
   position: relative;
-  margin-left: 2px;
+  margin-left: 1.5em;
   color: #EED6C8;
 }
 
