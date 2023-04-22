@@ -125,16 +125,6 @@ img {
     width: 100%;
 }
 
-.image-self-1 {
-    position: relative;
-    top: 110px;
-}
-
-.image-self-1 > img {
-    height: 700px;
-}
-
-
 /* about section */
 section {
     padding-top: 3rem;
