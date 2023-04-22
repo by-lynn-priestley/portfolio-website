@@ -1,13 +1,14 @@
 <!DOCTYPE html> <!-- tells browser this is an HTML 5 webpage -->
 <html lang='en'>
   <head>
-    <meta charset='UTF-8'/>
-    <title>Lynn Priestley</title>
-    <link rel="icon" href="./icons/tab-icon.png" alt='initials "lp" circled by abstract circuit board node'>
-    <link rel='stylesheet' href='styles.css'/>
+    <meta charset='UTF-8'>
+    <title>intro by Lynn Priestley</title>
+    <link rel="icon" href="./icons/tab-icon.png">
+    <link rel='stylesheet' href='styles.css'> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+   
     <!-- doesn't disable viewport zooming for accessiblity reasons, and allows zoom in/out on iOS9 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
       <style>
@@ -17,225 +18,98 @@
         }
       </style>
   </head>
+  
   <body>
-    <h1 class='visually-hidden'>Lynn Priestley's Portfolio Website</h1>
-    <div class='intro-background-bar'>
-      <div class='page'>
-    <!--nav bar-->
+    <header>
+      <div class="top-bar">
+        <!--header for top bar-->
+        <h1><strong>intro</strong> by Lynn Priestley.</h1>
+        
+        <!--nav bar-->
         <nav id='main-nav' aria-label='Main'>
-            <ul>
-              <li>
-                <a class="skip-to-content-link" href="#main"> Skip to main content </a>
-              </li>
-              <li class='home-initials'>
-                <a aria-label='Go to introduction' href='#intro'><strong>LP.</strong></a>
-              </li>
-              <li class='about'>
-                <a aria-label='Go to about section' href='#about'>about</a>
-              </li>
-              <li class='portfolio'>
-                <a aria-label='Go to portfolio section' href='#portfolio'>portfolio</a>
-              </li>
-              <li class='contact'>
-                <a aria-label='Go to contact section' href='#contact'>contact</a>
-              </li>
-            </ul>
-        </nav>
-
-      <!--landing page-->
-          <section class='page-section introduction'>
-            <div class='L-text'>
-              <h2 class='visually-hidden'>introduction</h2>
-              <p id='main'><span id='intro' aria-hidden='true'>&nbsp;</span><!-- non line-breaking space, prevents autobreak -->hi there.
-              </p>
-              <p>i&#8217;m Lynn Priestley.</p>
-              <p>digital narrative and interactive design</p>
-            </div>
-            <div class='R-img'>
-              <img src='./images-of-self/portfolio-pic-no-back.png' alt='Lynn Priestley sitting on webpage edge' height='600'/>
-            </div>
-          </section>
-        </div>
-      </div>
-      <div class='page'>
-    <!-- about -->
-        <section class='page-section bio'>
-
-          <div class='bio-top'>
-            <h2><span id='about' aria-hidden='true'>&nbsp;</span> <!-- non line-breaking space, prevents autobreak -->about
-            </h2>
-            <p aria-hidden='true'>&mdash;</p>
-          </div>
-
-          <div class=bio-mid>
-            <div class='L-img'>
-              <img src='./images-of-self/lynn-no-background.png' alt='Headshot of Lynn Priestley' height='250'/>
-            </div>
-
-            <div class='R-bio'>
-              <p>I am a senior at the University of Pittsburgh, majoring in Digital Narrative and Interactive Design on the Online Media track. My education involves a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content. My love of design does not stop with school though, as I spend my spare time reading my way through a never-ending list of books on the many subconsiderations of design. You&#8217;ll find some of my main interests (<em>and perhaps a couple of book recommendations for each one</em>) below.</p>
-            </div>
-          </div>
-
-          <div class='bio-bottom'>
-            <!-- no img alt tags in this section, as icons are purely decorative -->
-            <section class='icon-focus'>
-              <img src='./icons/accessible-icon.png' alt='' height='35'/>
-              <h3>accessibility</h3>
-                <p>My biggest passion is making my work inclusive to the disability community. I have sought out supplemental readings and tools, like WebAIM&#8217;s contrast checker and WAVE Tool, that help to check if my projects are accessible. Inspired by books like <em>Mismatch</em> by Kat Holmes and <em>What Can a Body Do?</em> by Sara Hendren, I strongly believe in co-design practices to create designs that adapt to bodies, rather than forcing bodies to adapt to the design.</p>
-            </section>
-
-            <section class='icon-focus'>
-              <img src='./icons/pen.png' alt='' height='35'/>
-              <h3>design</h3>
-                <p>My skillset currently includes Photoshop, Illustrator, InDesign, and Audacity. Outside of software skills, I have formal training in typographic principles. But I&#8217;m always looking to expand. I round out my major's education with a self-guided education in the ethics of inclusive design, with books such as <em>Design Justice</em>, written by Sasha Costanza-Chock and <em>Extra Bold</em>, written by a brilliant collective of designers including Ellen Lupton and Jennifer Tobias.</p>
-            </section>
-
-            <section class='icon-focus'>
-              <img src='./icons/coding.png' alt='' height='35'/>
-              <h3>writing</h3>
-                <p>Whether it is a narrative or a program, I really enjoy the writing process. Specifically with coding, I &ldquo;speak&rdquo; HTML, CSS, Python, and Java. With creative writing, books like <em>Brand Thinking</em> by Debbie Millman and <em>User Friendly</em> by Cliff Kuang and Robert Fabricant have shown me the link between narrative and how we understand design. I am endlessly fascinated by the power of the stories we tell ourselves and aim to work on more projects where I can hone my own storytelling abilities.</p>
-            </section>
-          </div>
-        </section>
-
-    <!-- portfolio -->
-
-        <section class='page-section work'>
-          <header class='portfolio-header'>
-            <h2><span id='portfolio' aria-hidden='true'>&nbsp;</span> <!-- non line-breaking space, prevents autobreak -->portfolio
-            </h2>
-            <p aria-hidden='true'>&mdash;</p>
-            <p>I often use GitHub repositories to track my progress with projects or to host final project files and comments. Feel free to click on the repository links below the images to explore my project repositories and find screenshots, research notes, and asset credits.</p>
-            <p>In addition to my portfolio pieces, I also coded this website from scratch. You can <a aria-label='Go to GitHub repository for this portfolio website' href='https://github.com/cap-alt-delete/portfolio-website.git'>go to my portfolio website repository</a> to see how it evolved here.</p>
-            <p>The links directly below allow you to skip around my portfolio based on project type:</p>
-        </header>
-        <!--invisible portfolio nav for screenreaders-->
-        <nav id='portfolio-nav' aria-label='Portfolio'>
           <ul>
             <li>
-              <a aria-label='Jump to graphic design section' href="#adobe">graphic design</a>
+              <a class="skip-to-content-link" href="#main"> Skip to main content </a>
             </li>
-            <li>
-              <a aria-label='Jump to website project section' href="#web">web design</a>
+            <li class='home-initials'>
+              <a aria-label='Go to introduction' href='./index.html'><strong>intro</strong></a>
             </li>
-            <li>
-              <a aria-label='Jump to video and audio projects' href="#av">video/audio work</a>
+            <li class='design'>
+              <a aria-label='Go to design portfolio' href='./design.html'>design</a>
+            </li>
+            <li class='teaching'>
+              <a aria-label='Go to teaching portfolio' href='./teaching.html'>teaching</a>
+            </li>
+            <li class='contact'>
+              <a aria-label='Go to contact page' href='./contact.html'>connect</a>
             </li>
           </ul>
         </nav>
-            <h3 class='visually-hidden' id='adobe'>Designs made with the Adobe suite</h3>
-              <div class='images'>
-                <div class='project'>
-                  <img src='./portfolio-images/disability-studies-poster.jpg' alt='Flyer advertising disability studies courses offered in spring 2022 by Pitt' height='300'/>
-                  <a aria-label='Go to GitHub repository for disability studies flyer' href='https://github.com/cap-alt-delete/disability-studies-flyer-2022'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/fake-art-event-flyer.jpg' alt='Flyer advertising fake art club DIY totebag event' height='300'/>
-                  <a aria-label='Go to GitHub repository for event flyer' href='https://github.com/cap-alt-delete/art-club-flyer'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/zine-thumbnail.jpg' alt='Cover for a zine titled "Body Language", about body norms' height='300'/>
-                  <a aria-label='Go to GitHub repository for zine project' href='https://github.com/cap-alt-delete/zine-website'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/magazine-spread-thumbnail.jpg' alt='Spread for fake baking magazine about making cookie dough' height='300'/>
-                  <a aria-label='Go to GitHub repository for magazine spreads' href='https://github.com/cap-alt-delete/baking-magazine-spread'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/typography-poster.jpg' alt='Bee-themed poster showing elements of typography' height='300'/>
-                  <a aria-label='Go to GitHub repository for typography poster' href='https://github.com/cap-alt-delete/typography-poster-credits.git'>repository.</a>
-                </div>
-
-                <div class='project insta'>
-                  <img src='./portfolio-images/insta-story1-3.jpg' alt="First 3 out of 5 panels of an Instagram ad story for fake coffee shop" height='150'/>
-                  <img src='./portfolio-images/insta-story4-5.jpg' alt="Remaining 2 panels of an Instagram ad story for fake coffee shop" height='150'/>
-                  <a aria-label='Go to GitHub repository for Instagram story' href='https://github.com/cap-alt-delete/instagram-story-fake-coffee-brand'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/quote-poster-screenshot.jpg' alt="Poster with Paula Scher quote" height='300'/>
-                  <a aria-label='Go to GitHub repository for quote poster' href='https://github.com/cap-alt-delete/quote-poster-project.git'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/postcard-series-thumbnail.jpg' alt="Series of three postcard advertsing different Wisconsion fruit growers' associations" height='300'/>
-                  <a aria-label='Go to GitHub repository for postcard series' href='https://github.com/cap-alt-delete/postcard-series-WIgrowers'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/visual-rhetoric.jpg' alt='Poster advocating for designing with rather than designing for' height='300'/>
-                  <a aria-label='Go to GitHub repository for visual rhetoric project' href='https://github.com/cap-alt-delete/visual-argument-2021spring'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/magazine-cover.jpg' alt='Fake cover for a magazine called "Spoonie Press" about chronic illness' height='300'/>
-                  <a aria-label='Go to GitHub repository for magazine cover' href='https://github.com/cap-alt-delete/consolidation-unit-2021spring'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/fake-docu-poster.jpg' alt='Fake advertisment for a documentary called "Techknowledgment"' height='300'/>
-                  <a aria-label='Go to GitHub repository for documentary poster' href='https://github.com/cap-alt-delete/fake-documentary-poster-credits'>repository.</a>
-                </div>
-              </div>
-
-            <h3 class='visually-hidden' id='web'>Websites projects</h3>
-              <div class='images'>
-                <div class='project'>
-                  <img src='./portfolio-images/existential-website.jpg' alt='Screenshot of website having an existential crisis' width='500'/>
-                  <a aria-label='Go to GitHub repository for existential website' href='https://github.com/cap-alt-delete/existential-website'>repository.</a>
-                </div>
-
-                <div class='project'>
-                  <img src='./portfolio-images/website-screenshot.jpg' alt='Screenshot of website designed for bookstore-cafe called "Loose Leaf"' width='500'/>
-                  <a aria-label='Go to GitHub repository for cafe website' href='https://github.com/cap-alt-delete/website-portfolio-2021spring.git'>repository.</a>
-                </div>
-              </div>
-
-              <h3 class='visually-hidden' id='av'>Video and audio projects</h3>
-                <div class='images'>
-                  <div class='project'>
-                    <video controls preload='none' alt="Coding process for a simulator of Foucault's panopticon">
-                      <source src="./portfolio-other-media/panopticon-simulator.mov"/>
-                    </video>
-                    <a aria-label='Go to GitHub repository for panopticon simulator video' href='https://github.com/cap-alt-delete/panopticon-simulator-credits.git'>repository.</a>
-                  </div>
-
-                  <div class='project'>
-                    <audio controls preload='none' alt="Soundscape playing on the idea of a literal train of thought">
-                      <source src="./portfolio-other-media/all-aboard-soundscape.mp3"/>
-                    </audio>
-                    <a aria-label='Go to GitHub repository for train of thought audio' href='https://github.com/cap-alt-delete/soundscape2021spring.git'>repository.</a>
-                  </div>
-                </div>
-        </section>
-
-        <section class='page-section communicate'>
-          <h2><span id='contact' aria-hidden='true'>&nbsp;</span> <!-- non line-breaking space, prevents autobreak -->contact
-          </h2>
-          <p aria-hidden='true'>&mdash;</p>
-          <p class='tagline'><em>let&#8217;s get in touch.</em></p>
-          <div class='contact-list'>
-            <p>email me <a aria-label='Open email to cap189@pitt.edu' href='mailto:cap189@pitt.edu'>at cap189@pitt.edu.</a></p>
-            <p>download <a aria-label="PDF of Lynn Priestley's resume" href='PriestleyLynnResume2022.pdf'>my resume.</a></p>
-            <p>check out <a aria-label="Lynn Priestley's LinkedIn profile" href='https://www.linkedin.com/in/lynn-priestley-5436421b3/'>my LinkedIn.</a></p>
-          </div>
-        </section>
+      </div>
+      <!--bold intro -->
+      <div class="big-text">
+        <div class="l-text">
+          <p id='main'>hi there.</p>
+          <p>i&#8217;m Lynn Priestley.</p>
+          <p>digital narrative and interactive designer</p>
         </div>
+        <div class="image-self-1">
+          <img src='./images-of-self/portfolio-pic-no-back.png' alt='Lynn, a white person with short, gently curled brown hair, is sitting on the edge of the dark green introduction bar. They are resting their head on their hand and are looking up at the text on the left with a playful smile. They are wearing a black button up with white line art bodies, and big computer mouse earrings.'>
+        </div>
+      </div>
+    </header>
+  
+  <!-- about -->
+  <section class="intro-tab">
 
-        <footer class='page-section credits'>
-          <h2><span id='credits' aria-hidden='true'>&nbsp;</span>credits</h2>
-          <p aria-hidden='true'>&mdash;</p>
-          <p><em>The icons used in my &ldquo;about&rdquo; section were not created by me.</em></p>
-          <p><em>Click on the title of the design to see the original location of the material.</em></p>
-          <p>The pen icon was created by Nithinan Tatah from the Noun Project, titled <a href='https://thenounproject.com/term/design/2082946/'>design</a>.</p>
-          <p>The HTML icon was created by David Khai from the Noun Project, titled <a href='https://thenounproject.com/search/?q=code&i=1437492'>code</a>.</p>
-          <p>The accessibility icon was created as part of <a href='https://accessibleicon.org/#use'>The Accessible Icon Project</a>.</p>
-          <p>The font used for this site is Montserrat, externally hosted by Google Fonts.</p>
-        </footer>
-  </body>
+    <div class="L-img-R-text">
+    <!-- general bio -->
+      <div class="image-self-2">
+        <img src='./images-of-self/lynn-no-background.png' alt='A more recent headshot of Lynn, now with very short, purple hair and a septum piercing. They have one eyebrow quirked and a slight smile. They are wearing a black and white jacket with a penguin pattern.'>
+      </div>
+      <div class="r-text">
+      <h2>about</h2>
+      <p>I am a recent graduate of the University of Pittsburgh, with a B.A. in Digital Narrative and Interactive Design (Online Media track) and a certificate in Disability Studies. My education hasn&#8217;t stopped since graduating though, and continues to involve a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content. I spend my spare time reading my way through a never-ending list of books on the many subconsiderations of design. You&#8217;ll find some of my main interests (<em>and perhaps a couple of book recommendations for each one</em>) below.</p>
+      </div>
+    </div>
+
+    <!-- nested sections for sub interests. each icon is decorative, so no alt text -->
+    <div class="side-by-side">
+      <section class="icon">
+        <div class="small-graphic">
+          <img src='./icons/accessible-icon.png' alt=''>
+        </div>
+        <h3>accessibility</h3>
+        <p>As a disabled designer, my biggest passion is making my work inclusive to the disability community. In both my work as an educator (<a href='./teaching.html'>access my teaching portfolio</a>) and as a designer (<a href='./design.html'>access my design portfolio</a>), I believe in accessibility as more than a checklist. Beyond having an understanding of accessibility standards, I aim to be mindful of the complexities of access intimacy and create holistic, emotionally-considerate access (which is an ever-evolving and imperfect practice).</p>
+        <p>Inspired by books like <em>Mismatch</em> by Kat Holmes and <em>What Can a Body Do?</em> by Sara Hendren, I strongly believe in co-design practices to create designs that adapt to bodies' diverse ways of being, rather than forcing bodies to adapt to the design.</p>
+      </section>
+
+      <section class="icon">
+        <div class="small-graphic">
+          <img src='./icons/pen.png' alt=''>
+        </div>
+        <h3>design</h3>
+        <p>My skillset currently includes Photoshop, Illustrator, InDesign, Figma, Twine, and Audacity. Outside of software skills, I have formal training in typographic principles. But I&#8217;m always looking to expand.</p> 
+                  
+        <p>Between my time in my major, starting up a podcast, and working as an intern for Pitt's Digital Media Lab, I developed the skills required to be constantly learning new tech/software.</p>
+        
+        <p>But design is more than the things we make. It is about who our designs include or exclude (recognizing that this inclusion/exclusion is not a simple binary, but complicated by intersectionality, as well as visibility of identities). With this in mind, I also pursue a self-guided education into the ethics of design, with the help of books such as <em>Design Justice</em>, written by Sasha Costanza-Chock and <em>Extra Bold</em>, written by a brilliant collective of designers including Ellen Lupton and Jennifer Tobias.</p>
+      </section>
+
+      <section class="icon">
+        <div class="small-graphic">
+          <img src='./icons/coding.png' alt=''>
+        </div>
+        <h3>writing</h3>
+        <p>Whether it is a narrative or a program, I really enjoy the writing process. Specifically with coding, I &ldquo;speak&rdquo; HTML, CSS, Python, and Java. At times in my work, like the Panopticon simulator I made for my Digital Humanity class (featured in my <a aria-label='Go to design portfolio' href='./design.html#av'>design portfolio</a>), code meets narrative quite directly.</p> 
+                  
+        <p>With creative writing, books like <em>Brand Thinking</em> by Debbie Millman and <em>User Friendly</em> by Cliff Kuang and Robert Fabricant have shown me the link between narrative and how we understand design. My work as host and producer of <em>Welcomed by Design</em> (refer to my <a aria-label='Go to teaching portfolio' href='./teaching.html'>teaching portfolio</a>) has allowed me to put my understanding of this connection into practice. I am endlessly fascinated by the power of the stories we tell ourselves through our words and design. Heading into my postgrad life, I aim to work on more projects where I can hone my own storytelling abilities.</p>
+      </section> 
+    </div>
+  </section>
+
+  <div class="go-to-top">
+    <a href="#main-nav">go to the top of this page.</a>
+  </div>
+</body>
 </html>
