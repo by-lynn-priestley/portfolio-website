@@ -1,5 +1,5 @@
 <!DOCTYPE html> <!-- tells browser this is an HTML 5 webpage -->
-<html lang='en'>
+<html lang='en' data-theme="light">
   <head>
     <meta charset='UTF-8'>
     <title>intro by Lynn Priestley</title>
@@ -47,66 +47,75 @@
         </nav>
       </div>
       <!--bold intro -->
-      <div class="big-text">
-        <div class="l-text">
+      <div class="intro">
+        <div class="big-text">
           <p id='main'>hi there.</p>
           <p>i&#8217;m Lynn Priestley.</p>
           <p>digital narrative and interactive designer</p>
         </div>
+
+        <!-- dark and light mode for differing low vision access needs -->
+        <div class="theme-button">
+          <button type="button" data-theme-toggle aria-label="Change to light theme">Change to light theme</button>
+          <script src="theme-change.js"></script>
+        </div>
       </div>
     </header>
   
-  <!-- about -->
-  <section class="intro-tab">
-
-    <div class="L-img-R-text">
     <!-- general bio -->
-      <div class="image-self-2">
-        <img src='./images-of-self/lynn-no-background.png' alt='Headshot of Lynn, with very short, purple hair and a septum piercing. They have one eyebrow quirked and a slight smile. They are wearing a black and white jacket with a penguin pattern.'>
+    <section class="preface">
+      <div class="L-img-R-text">
+        <div class="l-img">
+          <img src='./images-of-self/lynn_headshot.png' alt='Lynn, with their hair in a brown top knot and a fade around the sides. They have a septum piercing and are smiling widely, looking off to the left. They are wearing a green button down shirt, a necklace with a spoon charm, and green computer chip earrings.'>
+        </div>
+        <div class="r-text">
+          <h2>about</h2>
+          <p>I am a University of Pittsburgh graduate, with a B.A. in Digital Narrative and Interactive Design (Online Media track) and a certificate in Disability Studies. Through this education, I gained a hybrid skillset that includes the writing and design abilities to create digital content, as well as the coding and data analysis skills to build the software to display said content.</p>
+          
+          <p>My education hasn&#8217;t stopped since graduating though. I spend my spare time reading my way through a never-ending list of books on disability studies, design, and the intersection of both fields. You&#8217;ll find some of my main interests (and perhaps a couple of book recommendations for each one) below.</p>
+          
+          <p>Now, I put my knowledge to work in a variety of different ways as a freelance digital designer. I do everything fom workshop designing and faciliation, to web design, to brand management and social media work&ndash; bringing my focus on accessibility to everything I do.</p> 
+          
+          <p>I&#8217;d love to bring this focus to the digital work you need designed. <a href="./contact.html">Go to my connect page</a> to get in touch with me.</p>
+        </div>
       </div>
-      <div class="r-text">
-      <h2>about</h2>
-      <p>I am a recent graduate of the University of Pittsburgh, with a B.A. in Digital Narrative and Interactive Design (Online Media track) and a certificate in Disability Studies. My education hasn&#8217;t stopped since graduating though, and continues to involve a hybrid focus between the writing and design skills that go into creating digital content, as well as the coding and data analysis skills to build the software that can display said content. I spend my spare time reading my way through a never-ending list of books on the many subconsiderations of design. You&#8217;ll find some of my main interests (<em>and perhaps a couple of book recommendations for each one</em>) below.</p>
-      </div>
-    </div>
+    </section>
 
-    <!-- nested sections for sub interests. each icon is decorative, so no alt text -->
-    <div class="side-by-side">
-      <section class="icon">
-        <div class="small-graphic">
+    <!-- section with subinterests -->
+    <section>
+      <!-- each icon is decorative, so no alt text -->
+      <div class="side-by-side">
+        <div class="col">
           <img src='./icons/accessible-icon.png' alt=''>
+          <h3>accessibility</h3>
+          <p>As a disabled designer, my biggest passion is making my work inclusive to the disability community. In both my work as an educator and as a designer, I believe in accessibility as more than a checklist. Beyond having an understanding of accessibility standards, I aim to be mindful of the complexities of access intimacy and create holistic, emotionally-considerate access (which is an ever-evolving and imperfect practice). I also firmly believe that accessible doesn&#8217;t have to mean "boring design", and I love nothing more than creating experiences that are both accessible and aesthetically pleasing.</p>
+          
+          <p>Inspired by books like <em>Mismatch</em> by Kat Holmes and <em>What Can a Body Do?</em> by Sara Hendren, I strongly believe in co-design practices to create designs that adapt to bodies&#8217; diverse ways of being, rather than forcing bodies to adapt to the design.</p>
         </div>
-        <h3>accessibility</h3>
-        <p>As a disabled designer, my biggest passion is making my work inclusive to the disability community. In both my work as an educator (<a href='./teaching.html'>access my teaching portfolio</a>) and as a designer (<a href='./design.html'>access my design portfolio</a>), I believe in accessibility as more than a checklist. Beyond having an understanding of accessibility standards, I aim to be mindful of the complexities of access intimacy and create holistic, emotionally-considerate access (which is an ever-evolving and imperfect practice).</p>
-        <p>Inspired by books like <em>Mismatch</em> by Kat Holmes and <em>What Can a Body Do?</em> by Sara Hendren, I strongly believe in co-design practices to create designs that adapt to bodies' diverse ways of being, rather than forcing bodies to adapt to the design.</p>
-      </section>
 
-      <section class="icon">
-        <div class="small-graphic">
+        <div class="col">
           <img src='./icons/pen.png' alt=''>
+          <h3>design</h3>
+          <p>My skillset currently includes Photoshop, Illustrator, InDesign, Figma, Twine, and Audacity. Outside of software skills, I have formal training in typographic principles. But I&#8217;m always looking to expand.</p>         
+          
+          <p>During my time studying <abbr title="Digital Narrative and Interactive Design">DNID</abbr>, starting a podcast, and working as an intern for Pitt's Digital Media Lab, I developed the skills required to be constantly learning new tech/software.</p>
+          
+          <p>But design is about more than the things we make. It is about who our designs include or exclude. With this in mind, I also pursue self-guided education into the ethics of design, with the help of books such as <em>Design Justice</em>, written by Sasha Costanza-Chock and <em>Extra Bold</em>, written by a brilliant collective of designers including Ellen Lupton and Jennifer Tobias.</p>
         </div>
-        <h3>design</h3>
-        <p>My skillset currently includes Photoshop, Illustrator, InDesign, Figma, Twine, and Audacity. Outside of software skills, I have formal training in typographic principles. But I&#8217;m always looking to expand.</p> 
-                  
-        <p>Between my time in my major, starting up a podcast, and working as an intern for Pitt's Digital Media Lab, I developed the skills required to be constantly learning new tech/software.</p>
-        
-        <p>But design is about more than the things we make. It is about who our designs include or exclude. With this in mind, I also pursue a self-guided education into the ethics of design, with the help of books such as <em>Design Justice</em>, written by Sasha Costanza-Chock and <em>Extra Bold</em>, written by a brilliant collective of designers including Ellen Lupton and Jennifer Tobias.</p>
-      </section>
 
-      <section class="icon">
-        <div class="small-graphic">
+        <div class="col">
           <img src='./icons/coding.png' alt=''>
-        </div>
-        <h3>writing</h3>
-        <p>Whether it is a narrative or a program, I really enjoy the writing process. Specifically with coding, I &ldquo;speak&rdquo; HTML, CSS, Python, and Java. At times in my work, like the Panopticon simulator I made for my Digital Humanity class (featured in my <a aria-label='Go to design portfolio' href='./design.html#av'>design portfolio</a>), code meets narrative quite directly.</p> 
-                  
-        <p>With creative writing, books like <em>Brand Thinking</em> by Debbie Millman and <em>User Friendly</em> by Cliff Kuang and Robert Fabricant have shown me the link between narrative and how we understand design. My work as host and producer of <em>Welcomed by Design</em> (refer to my <a aria-label='Go to teaching portfolio' href='./teaching.html'>teaching portfolio</a>) has allowed me to put my understanding of this connection into practice. I am endlessly fascinated by the power of the stories we tell ourselves through our words and design. Heading into my postgrad life, I aim to work on more projects where I can hone my own storytelling abilities.</p>
-      </section> 
-    </div>
-  </section>
+          <h3>writing</h3>
+          <p>Whether it is a program or a narrative, I really enjoy the writing process. Specifically with coding, I &ldquo;speak&rdquo; HTML, CSS, Python, and Java. At times in my work, like the Panopticon simulator I made for my Digital Humanity class (featured in my <a aria-label='Go to design portfolio' href='./design.html#av'>design portfolio</a>), code meets narrative quite directly.</p> 
+                    
+          <p>With creative writing in mind, books like <em>Brand Thinking</em> by Debbie Millman and <em>User Friendly</em> by Cliff Kuang and Robert Fabricant have shown me the link between narrative and how we understand design. My work as host and producer of <em>Welcomed by Design</em> (refer to my <a aria-label='Go to teaching portfolio' href='./teaching.html#pod'>teaching portfolio</a>) has allowed me to put my understanding of this connection into practice. I am endlessly fascinated by the power of the stories we tell ourselves through our words and design. In my postgrad life, I aim to work on more projects where I can hone my own storytelling abilities.</p>
+        </div> 
+      </div>
+    </section>
 
-  <div class="go-to-top">
-    <a href="#main-nav">go to the top of this page.</a>
-  </div>
-</body>
+    <div class="go-to-top">
+      <a href="#main-nav">go to the top of this page.</a>
+    </div>
+
+  </body>
 </html>

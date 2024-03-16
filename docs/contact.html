@@ -1,5 +1,5 @@
 <!DOCTYPE html> <!-- tells browser this is an HTML 5 webpage -->
-<html lang='en'>
+<html lang='en' data-theme="light">
   <head>
     <meta charset='UTF-8'>
     <title>contact Lynn Priestley</title>
@@ -45,30 +45,71 @@
       </div>
 
       <!-- bold intro bar -->
-      <div class="big-text">
-        <div class="l-text">
-          <p>connect</p>
-          <p>ways to reach me</p>
+      <div class="intro">
+        <div class="big-text">
+          <p id='main'>connect</p>
+          <p>with me</p>
           <p>email, resume, LinkedIn</p>
+        </div>     
+
+        <div class="theme-button">
+        <!-- dark and light mode for differing low vision access needs -->
+          <button type="button" data-theme-toggle aria-label="Change to light theme">Change to light theme</button>
+          <script src="theme-change.js"></script>
         </div>
       </div>
     </header>
 
-    <section class="preface connect">
-      <h2 id='main'>let's get in touch</h2>
-      <p>Want to know what projects I'm up to these days, or what's next? Have a project you think my style would be the perfect fit for? Want to nerd out about cool accessibility stuff? Let's talk!</p>
-      <h3>email</h3>
-      <a href='mailto:cap189@pitt.edu'>send me a message.</a>
-      <h3>resume</h3>
-      <a href='./pdfs/LynnPriestleyResume2023.pdf'>download my resume.</a>
-      <h3>LinkedIn</h3>
-      <a href='https://www.linkedin.com/in/lynn-priestley-5436421b3/'>go to my LinkedIn.</a>
+    <section class="preface">
+
+      <div class="L-img-R-text">
+        <div class="l-img">
+          <img src="./icons/li.png" alt="">
+        </div>
+        <div class="r-text">
+          <h2>let&#8217;s get in touch</h2>
+          <p>Want to know what projects I&#8217;m up to these days, or what&#8217;s next? Want to nerd out about cool accessibility stuff? Have a project you think my style would be the perfect fit for? Let&#8217;s set up a virtual consultation!</p>
+        </div>
+      </div>
+    </section>
+      
+    <section>
+      <div class="side-by-side">
+        <div class="col">
+          <img src='./icons/email.png' alt=''>
+          <h3>email</h3>
+          <a class="email" href='mailto:cap189@pitt.edu'>send me a message at cap189[at]pitt[dot]edu.</a>
+        </div>
+        
+        <div class="col">
+          <img src='./icons/doc.png' alt=''>
+          <h3>resume</h3>
+          <a href='./pdfs/LynnPriestleyResume2024.pdf'>download my resume.</a>
+        </div>
+        
+        <div class="col">
+          <img src='./icons/li.png' alt=''>
+          <h3>LinkedIn</h3>
+          <a href='https://www.linkedin.com/in/lynn-priestley-5436421b3/'>go to my LinkedIn.</a>
+        </div>
+      </div>
     </section>
 
 
     <footer>
       <h2>website credits</h2>
-      <p><em>The icons used in my &ldquo;about&rdquo; and &ldquo;teaching&rdquo; pages were not created by me.</em> (Click on the title of the design to see the original location of the material.) The pen icon was created by Nithinan Tatah from the Noun Project, titled <a href='https://thenounproject.com/term/design/2082946/'>design</a>. The HTML icon was created by David Khai from the Noun Project, titled <a href='https://thenounproject.com/search/?q=code&i=1437492'>code</a>. The accessibility icon was created as part of <a href='https://accessibleicon.org/#use'>The Accessible Icon Project</a>. The podcast microphone icon was created by Camallia Marroh from Noun Project, titled <a href="https://thenounproject.com/icon/microphone-5651816/">Microphone</a>. The workshop icon was created by Komkrit Noenpoempisut from Noun Project, titled <a href="https://thenounproject.com/icon/blueprint-3475238/">Blueprint</a>. The lecture icon was created by Vectorstall from Noun Project, titled <a href="https://thenounproject.com/icon/lecture-4680488/">lecture</a>. The font used for this site is Montserrat, externally hosted by Google Fonts.</p>
+      <p>Photo on intro page was taken by Matthew Gulish. Photo next to &#8220;upcoming workshops&#8221; on teaching page was taken by Megan Kappel. Podcast studio photos on teaching page were taken by Dr. Jessica FitzPatrick and Emily Kuntz.</p>
+      
+      <p>In previous site iterations, icons were sourced from The Noun Project and the Accessible Icon Project. In this iteration, all icons were designed by me, to match my logotype and branding.</p>
+      
+      <p>The font used for this site is Montserrat, externally hosted by Google Fonts.</p>
+      
+      <p>Javascript for theme change was modified slightly, but originally written by Salma Alam-Naylor (aka whitep4nth3r) in her blog post <a aria-label="Open blog post on Javascript theme change" href="https://whitep4nth3r.com/blog/best-light-dark-mode-theme-toggle-javascript/">&#8220;The best light/dark mode theme toggle in JavaScript&#8221;</a>. Extended copyright giving free use is in the comments of the Javascript file.</p>
     </footer>
+
+    <div class="go-to-top">
+      <a href="#main-nav">go to the top of this page.</a>
+    </div>
+
   </body>
 </html>
