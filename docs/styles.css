@@ -313,8 +313,13 @@ video {
     max-width: 40%;
 }
 
+.audio {
+    height: 250px;
+}
+
 video::cue {
     color: #f3f3f3;
+    font-size: 1.1rem;
 }
 
 .descript {
