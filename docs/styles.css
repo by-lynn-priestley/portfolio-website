@@ -816,6 +816,7 @@ footer > p {
 
     .line-br {
         margin: 0;
+        padding-bottom: 2rem;
     }
 
     .l-img.teaching {
