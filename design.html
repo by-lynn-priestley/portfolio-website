@@ -1,0 +1,226 @@
+<!DOCTYPE html> <!-- tells browser this is an HTML 5 webpage -->
+<html lang='en' data-theme="light">
+  <head>
+    <meta charset='UTF-8'>
+    <title>design by Lynn Priestley</title>
+    <link rel="icon" href="./icons/tab-icon.png">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- doesn't disable viewport zooming for accessiblity reasons, and allows zoom in/out on iOS9 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <style>
+        body
+        {
+          font-family: 'Montserrat', "Helvetica", "Arial", sans-serif;
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+        <div class="top-bar">
+          <h1><strong>design</strong> by Lynn Priestley.</h1>
+    
+          <!--nav bar-->
+          <nav id='main-nav' aria-label='Main'>
+              <ul>
+                <li>
+                  <a class="skip-to-content-link" href="#main"> Skip to main content </a>
+                </li>
+                <li class='home-initials'>
+                  <a aria-label='Go to introduction' href='./index.html'>intro</a>
+                </li>
+                <li class='design'>
+                  <a aria-label='Go to design portfolio' href='./design.html'><strong>design</strong></a>
+                </li>
+                <li class='teaching'>
+                  <a aria-label='Go to teaching portfolio' href='./teaching.html'>teaching</a>
+                </li>
+                <li class='contact'>
+                  <a aria-label='Go to contact page' href='./contact.html'>connect</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+    
+        <!--portfolio bold intro-->
+        <div class="intro">
+          <div class="big-text">
+            <p id='main'>design</p>
+            <p>work</p>
+            <p>graphic, web, audio/video</p>
+          </div>  
+
+          <div class="theme-button">
+            <!-- dark and light mode for differing low vision access needs -->
+              <button type="button" data-theme-toggle aria-label="Change to light theme">Change to light theme</button>
+            <script src="theme-change.js"></script>
+          </div>
+        </div>
+    </header>
+
+    <!-- preface -->
+    <section class="preface">
+      <div class="L-img-R-text">
+        <div class="l-img">
+          <img src="./icons/graphic.png" alt="">
+        </div>
+        <div class="r-text">
+        <h2>preface</h2>
+
+        <h3>student projects</h3>
+        <p>I often use GitHub repositories to track my progress with projects or to host final project files and comments. Feel free to click on the repository links below the images to explore my project repositories and find screenshots, research notes, and asset credits.</p>
+        
+        <p>In addition to my portfolio pieces, I also coded this website. <a href='https://github.com/by-lynn-priestley/portfolio-website'>Go to my portfolio website repository</a> to see how it evolved here.</p>
+        
+        <p>The links directly below allow you to skip around my portfolio based on project type:</p>
+          <nav id='portfolio-nav' aria-label='Design Portfolio'>
+            <ul>
+              <li>
+                <a aria-label='Jump to graphic design section' href="#adobe">graphic design</a>
+              </li>
+              <li>
+                <a aria-label='Jump to website project section' href="#web">websites</a>
+              </li>
+              <li>
+                <a aria-label='Jump to video and audio projects' href="#av">video/audio</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="port-h">
+        <div class="port-icon">
+          <img src='./icons/graphic.png' alt=''>
+        </div>
+        <h2 id='adobe'>graphic design</h2>  
+      </div>
+      <div class="row">
+        <div class='project'>
+          <img src='./portfolio-images/disability-studies-poster.jpg' alt='Steel blue and gray palette flier advertising disability studies courses offered in spring 2022 by Pitt. Imagery includes non-functional Braille translation of "Disability Studies Courses" below the flier title, and accessibility icons that have been edited to be in theme with the course they are near. For example, the wheel of a wheelchair user icon has been turned into a film reel for the Disability in Film & TV class.'>
+          <a aria-label='Go to GitHub repository for disability studies flyer' href='https://github.com/by-lynn-priestley/disability-studies-flyer-2022'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/fake-art-event-flyer.jpg' alt='Flier advertising fake art club DIY totebag event. The color palette is largely warm browns and gold, with the background image being of two blank totebags. In the foreground, a hand holding two paintbrushes hovers, ready to paint.'>
+          <a aria-label='Go to GitHub repository for event flyer' href='https://github.com/by-lynn-priestley/art-club-flyer'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/zine-thumbnail.jpg' alt='Cover for a zine titled "Body Language", about body norms. The cover is in graysclae, with several line art bodies of different ability/disability statuses. In the background, there is a faint impression of the bell curve.'>
+          <a aria-label='Go to archive website for Body language zine' href="https://by-lynn-priestley.github.io/zine-website/">archive site.</a>
+          <a aria-label='Go to GitHub repository for zine project' href='https://github.com/by-lynn-priestley/zine-website'>repository.</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class='project'>
+          <img src='./portfolio-images/visual-rhetoric.jpg' alt='Poster advocating for designing with rather than designing for. Background is made up of a pattern of icon bodies with different ability/disability statues. The palette is largely blues, but the text "DESIGN WITH" stands out in bright red.'>
+          <a aria-label='Go to GitHub repository for visual rhetoric project' href='https://github.com/by-lynn-priestley/visual-argument-2021spring'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/typography-poster.jpg' alt='Bee-themed poster showing elements of typography, in a golden honey color palette. Hexagons and a few black and white illustrations of bees sprinkle the page, making the layout feel dynamic/asymmetrical.'>
+          <a aria-label='Go to GitHub repository for typography poster' href='https://github.com/by-lynn-priestley/typography-poster-credits.git'>repository.</a>
+        </div>
+
+        <div class='project insta'>
+          <img src='./portfolio-images/insta-story1-3.jpg' alt="First 3 out of 5 panels of an Instagram ad story for fake coffee shop. Imagery used for all five frames is warm, high quality photos of different coffee drinks, giving a trendy, hipster coffee shop feel.">
+          <img src='./portfolio-images/insta-story4-5.jpg' alt="Remaining 2 panels of an Instagram ad story for fake coffee shop">
+          <a aria-label='Go to GitHub repository for Instagram story' href='https://github.com/by-lynn-priestley/instagram-story-fake-coffee-brand'>repository.</a>
+        </div>
+      </div>
+
+      <div class="row two">
+        <div class='project'>
+          <img src='./portfolio-images/magazine-spread-thumbnail.jpg' alt='Spread for fake baking magazine about making cookie dough. The spread is minimalistic, with headers in a playful but neat handwritten font. High quality images of cookies and cookie dough play with negative space in inverse ways across the two pages.'>
+          <a aria-label='Go to GitHub repository for magazine spreads' href='https://github.com/by-lynn-priestley/baking-magazine-spread'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/postcard-series-thumbnail.jpg' alt="Series of three postcard advertsing different Wisconsion fruit growers' associations. The taglines are snarky and themed to the specific fruit of each card, which is featured in a photo to the right of each card, being held by two hands.">
+          <a aria-label='Go to GitHub repository for postcard series' href='https://github.com/by-lynn-priestley/postcard-series-WIgrowers'>repository.</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class='project'>
+          <img src='./portfolio-images/quote-poster-screenshot.jpg' alt="Poster with Paula Scher quote about having to get bad in order to get good. The background image is of concrete steps, with the typography sitting on the steps. The words mimic the quote, with 'you have to get bad' being super messy and 'in order to get good' being super ordered and precise.">
+          <a aria-label='Go to GitHub repository for quote poster' href='https://github.com/by-lynn-priestley/quote-poster-project.git'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/magazine-cover.jpg' alt='Fake cover for a magazine called "Spoonie Press" about chronic illness. The R in "Press" is a prescription Rx symbol. A grayscale hand holds up a small pill filled with spoons as the cover image.'>
+          <a aria-label='Go to GitHub repository for magazine cover' href='https://github.com/by-lynn-priestley/consolidation-unit-2021spring'>repository.</a>
+        </div>
+
+        <div class='project'>
+          <img src='./portfolio-images/fake-docu-poster.jpg' alt='Fake advertisment for a documentary called "Techknowledgment", now streaming on "Notflix". The poster has a teal background with illustrations of increasingly advanced tech being used as stairs by abstract bodies.'>
+          <a aria-label='Go to GitHub repository for documentary poster' href='https://github.com/by-lynn-priestley/fake-documentary-poster-credits'>repository.</a>
+        </div>
+      </div>
+      </section>
+
+      <section class="websites">
+        <div class="port-h">
+          <div class="port-icon">
+            <img class="port-icon" src='./icons/coding.png' alt=''>
+          </div>
+          <h2 id='web'>website projects</h2>
+        </div>
+
+        <div class='project-web'>
+          <img src='./portfolio-images/existential-website.jpg' alt='Screenshot of website having an existential crisis. A small robotic face greets the user, saying "I am glad you found me. I am not sure how much time I have left."'>
+          <a aria-label='Go to existential website' href="https://by-lynn-priestley.github.io/existential-website/">website.</a>
+          <a aria-label='Go to GitHub repository for existential website' href='https://github.com/by-lynn-priestley/existential-website'>repository.</a>
+        </div>
+
+        <div class='project-web'>
+          <img src='./portfolio-images/website-screenshot.jpg' alt='Screenshot of pink, red, and black website designed for bookstore-cafe called "Loose Leaf." The page content appears to be being typed by a typewriter at the bottom of the frame.'>
+          <p>[<strong>caution:</strong> typing animation at the top of the <a aria-label='Go to Loose Leaf website' href="https://by-lynn-priestley.github.io/website-portfolio-2021spring/">website</a>.]</p>
+          <a aria-label='Go to GitHub repository for cafe website' href='https://github.com/by-lynn-priestley/website-portfolio-2021spring.git'>repository.</a>
+        </div>
+      </section>
+
+      <section class="av">
+        <div class="port-h">
+          <div class="port-icon">
+            <img class="port-icon" src='./icons/av.png' alt=''>
+          </div>
+          <h2 id='av'>video and audio projects</h2>
+        </div>
+        
+        <div class='project-av'>
+          <div class="descript">
+            <h3>video description:</h3>
+            <p>Coding process for a simulator of Foucault&#8217;s panopticon, done in Mu (a developing environment with a white background and black text). Suspenseful techno music plays in the background, occasionally trading off for a clacky keyboard. At times, the normal black and white will shift to X-ray-type filter, to illustrate certain crucial lines of code that underlie the Panopticon's function. At the end, the code is run. A high-pitched beep sounds with each decision made by the player, sounding faster and faster to show the inescapability of the Panopticon.</p>
+            <a aria-label='Go to GitHub repository for panopticon simulator video' href='https://github.com/by-lynn-priestley/panopticon-simulator-credits.git'>repository.</a>
+          </div>
+          <video controls preload='none'>
+            <source src="./portfolio-other-media/panopticon-simulator.mov">
+          </video>
+        </div>
+
+        <div class='project-av'>
+          <div class="descript">
+            <h3>audio description:</h3>
+            <p>Soundscape playing on the idea of a literal train of thought. It starts with a study session, before fading into the fantastical representation of this train of thought. The guiding voice comes through a PA system, welcoming &#8220;passing thoughts&#8221;. Stops include &#8220;rationalization station&#8221; (for Worries to be processed), and &#8220;inclination station&#8221; (for Impulse Thoughts to be acted on). The train ride, however, is soon interrupted by a Brainstorm. This fades out as we return to our real-life study session, the sounds of keyboard clacking more intense as the brainstorm kicks in.</p>
+            <a aria-label='Go to GitHub repository for train of thought audio' href='https://github.com/by-lynn-priestley/soundscape2021spring.git'>repository.</a>
+          </div>
+          <video class="audio" controls preload='none'>
+            <source src="./portfolio-other-media/all-aboard-soundscape.mp3">
+            <track label="English" kind="subtitles" srclang="en" src="./portfolio-other-media/soundscape_captions.vtt" default>
+          </video>
+        </div>
+      </section>
+
+      <div class="go-to-top">
+        <a href="#main-nav">go to the top of this page.</a>
+      </div>
+
+  </body>
+</html>
