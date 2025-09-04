@@ -2,6 +2,6 @@
 
 This repository contains the work for coding my portfolio website from scratch, using HTML/CSS.
 
-Last update: April 2025
+Last update: September 2025
 
 Link to website: [bylynnpriestley.com](https://bylynnpriestley.com/)
